@@ -1,0 +1,237 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Home>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+    var backgroundImage = Model.Content.HeroBackgroundImage != null ? Model.Content.HeroBackgroundImage.Url : String.Empty;
+}
+
+@{
+    ViewData["Title"] = "AMK Bilogora";
+}
+
+<section class="main" style="margin-top:20px;">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="logo"><img src="images/logo.png" data-at2x="images/logo@2x.png" alt="logo"></div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="social text-center">
+                    <ul>
+                        <li><a href="https://www.facebook.com/AmkBilogora/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <header class="welcome-message text-center">
+                    <h1><span class="rotate">Amk Bilogora organizira, 3. Auto-moto show,2. Truck show,u Bjelovaru</span></h1>
+                </header>
+                <div class="sub-form text-center">
+                    <div class="row">
+                        <div class="col-md-5 center-block col-sm-8 col-xs-11">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <a asp-area="" class="btn btn-default" asp-controller="EventCompetition" asp-action="SignUp">Prijavi se<i class="fa fa-paper-plane"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="countdown text-center">
+                    <li>
+                        <span class="days">00</span>
+                        <p class="days_ref">days</p>
+                    </li>
+                    <li class="seperator">|</li>
+                    <li>
+                        <span class="hours">00</span>
+                        <p class="hours_ref">hours</p>
+                    </li>
+                    <li class="seperator">|</li>
+                    <li>
+                        <span class="minutes">00</span>
+                        <p class="minutes_ref">minutes</p>
+                    </li>
+                    <li class="seperator">|</li>
+                    <li>
+                        <span class="seconds">00</span>
+                        <p class="seconds_ref">seconds</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features section-spacing">
+    <div class="container">
+        <h2 class="text-center"><a asp-action="ShowDetails" asp-controller="Home">3. Auto - moto show i 2. Truck show Bjelovar</a></h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="wow fadeInUp product-features row">
+                    <div class="col-md-2 col-sm-2 col-xs-2 text-center"><i class="fa  fa-location-arrow fa-3x"></i></div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h2>Kada i gdje</h2>
+                        <p>
+                            <h4>07. srpnja 2018. s početkom u 12:00 te nastavak 08. srpnja po programu.</h4>
+                            <h4>U Gudovcu, na sajamskom prostoru pokraj Bjelovara</h4>
+                        </p>
+                        <br />
+                        <h3>Prijave će biti omogućene:</h3>
+                        <ul>
+                            <li>- Online preko stranice</li>
+                            <li>- Preko maila</li>
+                            <li>- Na samom događaju</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wow fadeInUp product-features row">
+                    <div class="col-md-2 col-sm-2 col-xs-2 text-center"><i class="fa fa-trophy fa-3x"></i></div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h2>Best club</h2>
+                        <p>
+                            Bilo to vlastitim autom ili našim klubskim autom, odvozite poligon sa zadatkom u što kraćem vremenu, boreći se za nagradu protiv ostalih klubova/ekipa.
+                        </p>
+                        <p>
+                            Ekipa se sastoji od 5 članova, 1 vozača i 4 mehaničara.
+                            Cilj igre je da u što kraćem vremenu odvozite stazu (kao slalom) i da na označenom mjestu (boksu) demontirate i montirate nazad iste kotače.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="wow fadeInUp product-features row">
+                    <div class="col-md-2 col-sm-2 col-xs-2 text-center"><i class="fa fa-bicycle fa-3x"></i></div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h2>Zabava</h2>
+                        <p>
+                            Tokom noći zabavit ćemo se uz našeg DJ-a sa domaćom i stranom glazbom.
+
+                            Ovoga puta, dozvoljeno je roštiljanje! Uz kampiranje, valja se dobro i zabavit :)
+                        </p>
+                    </div>
+                </div>
+                <div class="wow fadeInUp product-features row">
+                    <div class="col-md-2 col-sm-2 col-xs-2 text-center"><i class="fa fa-plus-circle fa-3x"></i></div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h2>Dodatno</h2>
+                        <p>
+                            Za vas smo pripremili bogati sadržaj, puno nagrada, atrakcija, zanimljive društvene igre, program za djecu kao i za sve posjetitelje.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="twitter-feed section-spacing text-center">
+    <div class="overlay-t"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11 center-block col-sm-11 col-xs-11">
+                <h2>Nešto od članova...</h2>
+                <div class="row wow fadeInUp twitter-icon">
+                    <div class="profile-header-container">
+                        <div class="profile-header-img">
+                            <img class="img-circle" src="~/images/clanovi/irus.jpg" />
+                            <!-- badge -->
+                            <div class="rank-label-container">
+                                <span class="label label-default rank-label">Vw Vento 1.9 TDI 90ks</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-header-container">
+                        <div class="profile-header-img">
+                            <img class="img-circle" src="~/images/clanovi/gcuh.jpg" />
+                            <!-- badge -->
+                            <div class="rank-label-container">
+                                <span class="label label-default rank-label">Opel corsa 1.8 16v 92 kw</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-header-container">
+                        <div class="profile-header-img">
+                            <img class="img-circle" src="~/images/clanovi/ifuk.jpg" />
+                            <!-- badge -->
+                            <div class="rank-label-container">
+                                <span class="label label-default rank-label">Honda Civic 1.5 vtec</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeInUp twitter-icon">
+                    <div class="profile-header-container">
+                        <div class="profile-header-img">
+                            <img class="img-circle" src="~/images/clanovi/lstar.jpg" />
+                            <!-- badge -->
+                            <div class="rank-label-container">
+                                <span class="label label-default rank-label">Ford Escort XR3i</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-header-container">
+                        <div class="profile-header-img">
+                            <img class="img-circle" src="~/images/clanovi/mkoc.jpg" />
+                            <!-- badge -->
+                            <div class="rank-label-container">
+                                <span class="label label-default rank-label">Seat Ibiza 1.9 TDI 96 kw</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-header-container">
+                        <div class="profile-header-img">
+                            <img class="img-circle" src="~/images/clanovi/ttul.jpg" />
+                            <!-- badge -->
+                            <div class="rank-label-container">
+                                <span class="label label-default rank-label">KTM EXC 450</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact section-spacing" id="contact">
+    <div class="container">
+        <h2 class="text-center">Kontaktirajte nas!</h2>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+
+                <div class="contact-form">
+                    <form asp-controller="Home" asp-action="ContactMail" method="post" id="contact-form" role="form">
+                        <input type="text" autocomplete="off" class="wow fadeInUp form-control" name="name" id="name" placeholder="Ime" required>
+                        <input type="email" autocomplete="off" class="wow fadeInUp form-control" name="mail" id="email" placeholder="E-mail adresa" required>
+                        <textarea class="wow fadeInUp form-control" name="message" id="message" rows="3" placeholder="Vaša poruka" required></textarea>
+                        <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">Pošalji</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact section-spacing" id="contact">
+    <div class="container">
+        <h2 class="text-center">Lokacija</h2>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div id="map-canvas"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="preloader">
+    <div id="status"></div>
+</div>
+@section Scripts{
+    <script src="~/js/gmap.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2iFDZk22EEvPaRBluP9w83xNi_I4weSM&callback=initialize">
+    </script>
+
+}

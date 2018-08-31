@@ -1,0 +1,175 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = null;
+
+    // Get basic design settings from the homepage
+    var home = (Home)Model.Content.Site();
+    var colorTheme = Umbraco.GetPreValueAsString(home.ColorTheme);
+    var font = Umbraco.GetPreValueAsString(home.Font);
+}
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>@Model.Content.Name - @home.Sitename</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="@Url.Content("~/css/umbraco-starterkit-style.css")" />
+    <link rel="stylesheet" href="~/scripts/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/blueimp/blueimp-gallery.css" />
+    <link href="~/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />
+    @RenderSection("Header", required: false)
+</head>
+
+<body class="frontpage theme-font-@font theme-color-@colorTheme">
+<div class="min-height-window">
+    <div class="mobile-nav">
+        <nav class="nav-bar">
+            @Html.Partial("~/views/partials/navigation/topNavigation.cshtml")
+        </nav>
+    </div>
+
+    <header class="header">
+
+        <div class="logo">
+            @if (home.SiteLogo != null && !string.IsNullOrEmpty(home.SiteLogo.Url))
+            {
+                <div class="nav-link--home">
+                    <img class="logo-image" src="@home.SiteLogo.Url" alt="@home.Sitename">
+                </div>
+            }
+            else
+            {
+                <a class="nav-link nav-link--home nav-link--home__text logo-text" href="/">@home.Sitename</a>
+            }
+        </div>
+
+        <nav class="nav-bar top-nav">
+            @Html.Partial("~/Views/Partials/Navigation/TopNavigation.cshtml")
+        </nav>
+
+        <div class="mobile-nav-handler">
+            <div class="hamburger lines" id="toggle-nav">
+                <span></span>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        
+        @RenderBody()
+        
+    </main>
+    </div>
+        <footer class="site-footer section-spacing footer  navbar-inverse navbar-fixed-bottom">
+            <div class="row">
+                <div class="col-xs-3 col-md-2 col-md-offset-2 text-center">
+                    <ul>
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Rules" title="Pravilnik AMK Bilogora">Pravilnik</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-3 col-md-2 text-center">
+                    <ul>
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Sponzorship" title="Sponzori AMK Bilogora">Sponzori</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-2 col-md-2 text-center">
+                    <ul>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Statut" title="Statut AMK Bilogora">Statut</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-2 col-md-2 text-center">
+                    <ul>
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Contact" title="Kontaktiranje AMK Bilogora">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row push-down">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2018 - AMKBilogora by <a href="http://vedran-jandrasincec.from.hr" target="_blank">Jandro Applications</a></p>
+                </div>
+            </div>
+                        <div class="row">
+                <div class="col-md-12 ta-center">
+                    @home.FooterAddress
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+    <script src="@Url.Content("~/scripts/umbraco-starterkit-app.js")"></script>
+            <script src="~/scripts/lib/jquery/dist/jquery.js"></script>
+        <script src="~/scripts/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/scripts/js/site.js"></script>
+        <script src="~/scripts/js/jquery.backstretch.min.js"></script>
+        <script src="~/scripts/js/wow.min.js"></script>
+        <script src="~/scripts/js/retina.min.js"></script>
+        <script src="~/scripts/js/jquery.downCount.js"></script>
+        <script src="~/scripts/js/jquery.form.min.js"></script>
+        <script src="~/scripts/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/scripts/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/scripts/js/jquery.simple-text-rotator.min.js"></script>
+        <script src="~/scripts/lib/blueimp/blueimp-gallery.js"></script>
+        <script src="~/scripts/js/main.js"></script>
+        <script src="~/scripts/lib/blueimp/blueimp-gallery.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src='//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js'></script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-1500466040424985",
+                enable_page_level_ads: true
+            });
+        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116930715-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-116930715-1');
+        </script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#252e39"
+                        },
+                        "button": {
+                            "background": "#14a7d0"
+                        }
+                    },
+                    "theme": "classic",
+                    "position": "bottom-right",
+                    "content": {
+                        "message": "Na ovoj stranici koristimo kolačiće kako bi Vam pružili najbolje moguće iskustvo na stranici",
+                        "dismiss": "Ok",
+                        "link": "Saznaj više"
+                    }
+                })
+            });
+        </script>
+@RenderSection("Scripts", required: false)
+</body>
+
+</html>

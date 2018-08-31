@@ -1,0 +1,1651 @@
+﻿ 2018-08-31 18:07:34,690 [P9316/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 18:07:34,705 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 18:07:34,715 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2018-08-31 18:07:34,763 [P9316/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 18:07:34,764 [P9316/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 18:07:34,765 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:07:34,972 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 207ms)
+ 2018-08-31 18:07:34,972 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 18:07:34,977 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 4ms)
+ 2018-08-31 18:07:34,988 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:07:34,988 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:07:34,988 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 18:07:34,992 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2018-08-31 18:07:34,993 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:07:34,993 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:07:34,993 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 18:07:34,997 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 4ms)
+ 2018-08-31 18:07:35,006 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:07:35,007 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:07:35,007 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 18:07:35,011 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 3ms)
+ 2018-08-31 18:07:35,011 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:07:35,011 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:07:35,012 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 18:07:35,015 [P9316/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 3ms)
+ 2018-08-31 18:07:35,959 [P9316/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1319ms)
+ 2018-08-31 18:07:36,001 [P9316/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:07:36,001 [P9316/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:07:36,001 [P9316/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:07:36,126 [P9316/D2/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 18:07:36,127 [P9316/D2/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 18:08:52,962 [P9316/D2/T17] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: Permissions
+ 2018-08-31 18:08:52,969 [P9316/D2/T17] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 7ms)
+ 2018-08-31 18:08:52,986 [P9316/D2/T14] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: ConfigureMachineKey
+ 2018-08-31 18:08:52,997 [P9316/D2/T14] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 11ms)
+ 2018-08-31 18:08:53,001 [P9316/D2/T16] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-08-31 18:08:53,002 [P9316/D2/T16] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-08-31 18:08:53,004 [P9316/D2/T16] INFO  Umbraco.Web.ExamineStartup - Complete (took 1ms)
+ 2018-08-31 18:08:53,005 [P9316/D2/T16] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-08-31 18:08:53,606 [P9316/D3/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 18:08:53,619 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 18:08:53,622 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Hash determined (took 3ms)
+ 2018-08-31 18:08:53,651 [P9316/D3/T18] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 18:08:53,652 [P9316/D3/T18] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 18:08:53,653 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:53,832 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 179ms)
+ 2018-08-31 18:08:53,832 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 18:08:53,833 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2018-08-31 18:08:53,853 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:53,854 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:53,854 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 18:08:53,854 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-08-31 18:08:53,854 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:53,854 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:53,854 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 18:08:53,855 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 0ms)
+ 2018-08-31 18:08:53,865 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:53,865 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:53,865 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 18:08:53,865 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2018-08-31 18:08:53,866 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:53,866 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:53,866 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 18:08:53,866 [P9316/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2018-08-31 18:08:54,835 [P9316/D3/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1287ms)
+ 2018-08-31 18:08:54,887 [P9316/D3/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:08:54,888 [P9316/D3/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:08:54,888 [P9316/D3/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:08:55,451 [P9316/D3/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 18:08:55,452 [P9316/D3/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 18:08:55,911 [P9316/D3/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: DatabaseConfigure
+ 2018-08-31 18:08:55,927 [P9316/D3/T13] INFO  Umbraco.Core.DatabaseContext - Configured a new ConnectionString using the 'System.Data.SqlClient' provider.
+ 2018-08-31 18:08:55,929 [P9316/D3/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 17ms)
+ 2018-08-31 18:08:55,933 [P9316/D3/T14] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-08-31 18:08:55,933 [P9316/D3/T14] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-08-31 18:08:55,934 [P9316/D3/T14] INFO  Umbraco.Web.ExamineStartup - Complete (took 1ms)
+ 2018-08-31 18:08:55,935 [P9316/D3/T14] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-08-31 18:08:56,589 [P9316/D4/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 18:08:56,601 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 18:08:56,605 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Hash determined (took 3ms)
+ 2018-08-31 18:08:56,635 [P9316/D4/T18] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 18:08:56,636 [P9316/D4/T18] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 18:08:56,637 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:56,828 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 190ms)
+ 2018-08-31 18:08:56,828 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 18:08:56,829 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2018-08-31 18:08:56,848 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:56,848 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:56,848 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 18:08:56,848 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-08-31 18:08:56,849 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:56,849 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:56,849 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 18:08:56,850 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 0ms)
+ 2018-08-31 18:08:56,859 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:56,859 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:56,859 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 18:08:56,859 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2018-08-31 18:08:56,860 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:56,860 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:56,860 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 18:08:56,860 [P9316/D4/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2018-08-31 18:08:57,832 [P9316/D4/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1301ms)
+ 2018-08-31 18:08:57,887 [P9316/D4/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:08:57,887 [P9316/D4/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:08:57,887 [P9316/D4/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:08:58,630 [P9316/D4/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 18:08:58,631 [P9316/D4/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 18:08:59,080 [P9316/D4/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: DatabaseInstall
+ 2018-08-31 18:08:59,082 [P9316/D4/T13] INFO  Umbraco.Core.DatabaseContext - Database configuration status: Started
+ 2018-08-31 18:08:59,084 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Initializing database schema creation
+ 2018-08-31 18:08:59,110 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoNode] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[trashed] BIT NOT NULL CONSTRAINT [DF_umbracoNode_trashed] DEFAULT ('0'),
+[parentID] INTEGER NOT NULL,
+[nodeUser] INTEGER NULL,
+[level] INTEGER NOT NULL,
+[path] NVARCHAR(150) NOT NULL,
+[sortOrder] INTEGER NOT NULL,
+[uniqueID] UniqueIdentifier NOT NULL CONSTRAINT [DF_umbracoNode_uniqueID] DEFAULT (NEWID()),
+[text] NVARCHAR(255) NULL,
+[nodeObjectType] UniqueIdentifier NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoNode_createDate] DEFAULT (GETDATE()))
+ 2018-08-31 18:08:59,114 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoNode] ADD CONSTRAINT [PK_structure] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,115 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoNode
+ 2018-08-31 18:08:59,136 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoNode
+ 2018-08-31 18:08:59,144 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeTrashed] ON [umbracoNode] ([trashed])
+ 2018-08-31 18:08:59,154 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeParentId] ON [umbracoNode] ([parentID])
+ 2018-08-31 18:08:59,157 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodePath] ON [umbracoNode] ([path])
+ 2018-08-31 18:08:59,159 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoNodeUniqueID] ON [umbracoNode] ([uniqueID])
+ 2018-08-31 18:08:59,161 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeObjectType] ON [umbracoNode] ([nodeObjectType])
+ 2018-08-31 18:08:59,165 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoNode] ADD CONSTRAINT [FK_umbracoNode_umbracoNode_id] FOREIGN KEY ([parentID]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,166 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoNode' was created
+ 2018-08-31 18:08:59,169 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsContentType] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[alias] NVARCHAR(255) NULL,
+[icon] NVARCHAR(255) NULL,
+[thumbnail] NVARCHAR(255) NOT NULL CONSTRAINT [DF_cmsContentType_thumbnail] DEFAULT ('folder.png'),
+[description] NVARCHAR(1500) NULL,
+[isContainer] BIT NOT NULL CONSTRAINT [DF_cmsContentType_isContainer] DEFAULT ('0'),
+[allowAtRoot] BIT NOT NULL CONSTRAINT [DF_cmsContentType_allowAtRoot] DEFAULT ('0'))
+ 2018-08-31 18:08:59,170 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsContentType] ADD CONSTRAINT [PK_cmsContentType] PRIMARY KEY CLUSTERED ([pk])
+ 2018-08-31 18:08:59,171 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsContentType
+ 2018-08-31 18:08:59,174 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsContentType
+ 2018-08-31 18:08:59,176 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContentType] ON [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,178 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsContentType_icon] ON [cmsContentType] ([icon])
+ 2018-08-31 18:08:59,180 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType] ADD CONSTRAINT [FK_cmsContentType_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,181 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsContentType' was created
+ 2018-08-31 18:08:59,183 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsTemplate] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[alias] NVARCHAR(100) NULL,
+[design] NTEXT NOT NULL)
+ 2018-08-31 18:08:59,185 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [PK_cmsTemplate] PRIMARY KEY CLUSTERED ([pk])
+ 2018-08-31 18:08:59,185 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsTemplate
+ 2018-08-31 18:08:59,185 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsTemplate
+ 2018-08-31 18:08:59,187 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsTemplate_nodeId] ON [cmsTemplate] ([nodeId])
+ 2018-08-31 18:08:59,188 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [FK_cmsTemplate_umbracoNode] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,188 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsTemplate' was created
+ 2018-08-31 18:08:59,190 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsContent] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[contentType] INTEGER NOT NULL)
+ 2018-08-31 18:08:59,192 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [PK_cmsContent] PRIMARY KEY CLUSTERED ([pk])
+ 2018-08-31 18:08:59,193 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsContent
+ 2018-08-31 18:08:59,193 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsContent
+ 2018-08-31 18:08:59,194 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContent] ON [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,195 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [FK_cmsContent_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,196 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [FK_cmsContent_cmsContentType_nodeId] FOREIGN KEY ([contentType]) REFERENCES [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,196 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsContent' was created
+ 2018-08-31 18:08:59,199 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsContentVersion] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[ContentId] INTEGER NOT NULL,
+[VersionId] UniqueIdentifier NOT NULL,
+[VersionDate] DATETIME NOT NULL CONSTRAINT [DF_cmsContentVersion_VersionDate] DEFAULT (GETDATE()))
+ 2018-08-31 18:08:59,200 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsContentVersion] ADD CONSTRAINT [PK_cmsContentVersion] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,201 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsContentVersion
+ 2018-08-31 18:08:59,201 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsContentVersion
+ 2018-08-31 18:08:59,202 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsContentVersion_ContentId] ON [cmsContentVersion] ([ContentId])
+ 2018-08-31 18:08:59,202 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContentVersion_VersionId] ON [cmsContentVersion] ([VersionId])
+ 2018-08-31 18:08:59,203 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentVersion] ADD CONSTRAINT [FK_cmsContentVersion_cmsContent_nodeId] FOREIGN KEY ([ContentId]) REFERENCES [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,204 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsContentVersion' was created
+ 2018-08-31 18:08:59,207 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsDocument] ([nodeId] INTEGER NOT NULL,
+[published] BIT NOT NULL,
+[documentUser] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NOT NULL,
+[text] NVARCHAR(255) NOT NULL,
+[releaseDate] DATETIME NULL,
+[expireDate] DATETIME NULL,
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_cmsDocument_updateDate] DEFAULT (GETDATE()),
+[templateId] INTEGER NULL,
+[newest] BIT NOT NULL CONSTRAINT [DF_cmsDocument_newest] DEFAULT ('0'))
+ 2018-08-31 18:08:59,209 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [PK_cmsDocument] PRIMARY KEY CLUSTERED ([versionId])
+ 2018-08-31 18:08:59,209 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsDocument
+ 2018-08-31 18:08:59,209 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsDocument
+ 2018-08-31 18:08:59,209 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDocument] ON [cmsDocument] ([nodeId],[versionId])
+ 2018-08-31 18:08:59,210 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsDocument_published] ON [cmsDocument] ([published])
+ 2018-08-31 18:08:59,210 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsDocument_newest] ON [cmsDocument] ([newest])
+ 2018-08-31 18:08:59,211 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,213 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,213 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_cmsTemplate_nodeId] FOREIGN KEY ([templateId]) REFERENCES [cmsTemplate] ([nodeId])
+ 2018-08-31 18:08:59,214 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsDocument' was created
+ 2018-08-31 18:08:59,216 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsMedia] ([nodeId] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NOT NULL,
+[mediaPath] NVARCHAR(255) NULL)
+ 2018-08-31 18:08:59,217 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsMedia] ADD CONSTRAINT [PK_cmsMedia] PRIMARY KEY CLUSTERED ([versionId])
+ 2018-08-31 18:08:59,217 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsMedia
+ 2018-08-31 18:08:59,217 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsMedia
+ 2018-08-31 18:08:59,218 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMedia] ON [cmsMedia] ([nodeId],[versionId],[mediaPath])
+ 2018-08-31 18:08:59,219 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMedia] ADD CONSTRAINT [FK_cmsMedia_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,220 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMedia] ADD CONSTRAINT [FK_cmsMedia_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,221 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsMedia' was created
+ 2018-08-31 18:08:59,223 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsDocumentType] ([contentTypeNodeId] INTEGER NOT NULL,
+[templateNodeId] INTEGER NOT NULL,
+[IsDefault] BIT NOT NULL CONSTRAINT [DF_cmsDocumentType_IsDefault] DEFAULT ('0'))
+ 2018-08-31 18:08:59,225 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [PK_cmsDocumentType] PRIMARY KEY CLUSTERED ([contentTypeNodeId], [templateNodeId])
+ 2018-08-31 18:08:59,225 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsDocumentType
+ 2018-08-31 18:08:59,225 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsDocumentType
+ 2018-08-31 18:08:59,226 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_cmsContentType_nodeId] FOREIGN KEY ([contentTypeNodeId]) REFERENCES [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,227 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_umbracoNode_id] FOREIGN KEY ([contentTypeNodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,228 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_cmsTemplate_nodeId] FOREIGN KEY ([templateNodeId]) REFERENCES [cmsTemplate] ([nodeId])
+ 2018-08-31 18:08:59,229 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsDocumentType' was created
+ 2018-08-31 18:08:59,231 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsDataType] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[propertyEditorAlias] NVARCHAR(255) NOT NULL,
+[dbType] NVARCHAR(50) NOT NULL)
+ 2018-08-31 18:08:59,233 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsDataType] ADD CONSTRAINT [PK_cmsDataType] PRIMARY KEY CLUSTERED ([pk])
+ 2018-08-31 18:08:59,233 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsDataType
+ 2018-08-31 18:08:59,244 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsDataType
+ 2018-08-31 18:08:59,246 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDataType_nodeId] ON [cmsDataType] ([nodeId])
+ 2018-08-31 18:08:59,248 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDataType] ADD CONSTRAINT [FK_cmsDataType_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,249 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsDataType' was created
+ 2018-08-31 18:08:59,252 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsDataTypePreValues] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[datatypeNodeId] INTEGER NOT NULL,
+[value] NTEXT NULL,
+[sortorder] INTEGER NOT NULL,
+[alias] NVARCHAR(50) NULL)
+ 2018-08-31 18:08:59,253 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsDataTypePreValues] ADD CONSTRAINT [PK_cmsDataTypePreValues] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,254 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsDataTypePreValues
+ 2018-08-31 18:08:59,262 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsDataTypePreValues
+ 2018-08-31 18:08:59,265 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDataTypePreValues] ADD CONSTRAINT [FK_cmsDataTypePreValues_cmsDataType_nodeId] FOREIGN KEY ([datatypeNodeId]) REFERENCES [cmsDataType] ([nodeId])
+ 2018-08-31 18:08:59,266 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsDataTypePreValues' was created
+ 2018-08-31 18:08:59,268 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsDictionary] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[id] UniqueIdentifier NOT NULL,
+[parent] UniqueIdentifier NULL,
+[key] NVARCHAR(450) NOT NULL)
+ 2018-08-31 18:08:59,269 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsDictionary] ADD CONSTRAINT [PK_cmsDictionary] PRIMARY KEY CLUSTERED ([pk])
+ 2018-08-31 18:08:59,270 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsDictionary
+ 2018-08-31 18:08:59,270 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsDictionary
+ 2018-08-31 18:08:59,271 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDictionary_id] ON [cmsDictionary] ([id])
+ 2018-08-31 18:08:59,272 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsDictionary_key] ON [cmsDictionary] ([key])
+ 2018-08-31 18:08:59,273 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsDictionary] ADD CONSTRAINT [FK_cmsDictionary_cmsDictionary_id] FOREIGN KEY ([parent]) REFERENCES [cmsDictionary] ([id])
+ 2018-08-31 18:08:59,273 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsDictionary' was created
+ 2018-08-31 18:08:59,275 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoLanguage] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[languageISOCode] NVARCHAR(14) NULL,
+[languageCultureName] NVARCHAR(100) NULL)
+ 2018-08-31 18:08:59,277 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoLanguage] ADD CONSTRAINT [PK_umbracoLanguage] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,277 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoLanguage
+ 2018-08-31 18:08:59,279 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoLanguage
+ 2018-08-31 18:08:59,281 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoLanguage_languageISOCode] ON [umbracoLanguage] ([languageISOCode])
+ 2018-08-31 18:08:59,282 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoLanguage' was created
+ 2018-08-31 18:08:59,284 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsLanguageText] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[languageId] INTEGER NOT NULL,
+[UniqueId] UniqueIdentifier NOT NULL,
+[value] NVARCHAR(1000) NOT NULL)
+ 2018-08-31 18:08:59,286 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsLanguageText] ADD CONSTRAINT [PK_cmsLanguageText] PRIMARY KEY CLUSTERED ([pk])
+ 2018-08-31 18:08:59,286 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsLanguageText
+ 2018-08-31 18:08:59,287 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsLanguageText
+ 2018-08-31 18:08:59,288 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsLanguageText] ADD CONSTRAINT [FK_cmsLanguageText_umbracoLanguage_id] FOREIGN KEY ([languageId]) REFERENCES [umbracoLanguage] ([id])
+ 2018-08-31 18:08:59,289 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsLanguageText] ADD CONSTRAINT [FK_cmsLanguageText_cmsDictionary_id] FOREIGN KEY ([UniqueId]) REFERENCES [cmsDictionary] ([id])
+ 2018-08-31 18:08:59,289 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsLanguageText' was created
+ 2018-08-31 18:08:59,291 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoDomains] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[domainDefaultLanguage] INTEGER NULL,
+[domainRootStructureID] INTEGER NULL,
+[domainName] NVARCHAR(255) NOT NULL)
+ 2018-08-31 18:08:59,293 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoDomains] ADD CONSTRAINT [PK_umbracoDomains] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,293 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoDomains
+ 2018-08-31 18:08:59,293 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoDomains
+ 2018-08-31 18:08:59,295 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoDomains] ADD CONSTRAINT [FK_umbracoDomains_umbracoNode_id] FOREIGN KEY ([domainRootStructureID]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,295 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoDomains' was created
+ 2018-08-31 18:08:59,297 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoLog] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userId] INTEGER NOT NULL,
+[NodeId] INTEGER NOT NULL,
+[Datestamp] DATETIME NOT NULL CONSTRAINT [DF_umbracoLog_Datestamp] DEFAULT (GETDATE()),
+[logHeader] NVARCHAR(50) NOT NULL,
+[logComment] NVARCHAR(4000) NULL)
+ 2018-08-31 18:08:59,298 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoLog] ADD CONSTRAINT [PK_umbracoLog] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,299 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoLog
+ 2018-08-31 18:08:59,299 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoLog
+ 2018-08-31 18:08:59,300 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoLog] ON [umbracoLog] ([NodeId])
+ 2018-08-31 18:08:59,300 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoLog' was created
+ 2018-08-31 18:08:59,303 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsMacro] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[uniqueId] UniqueIdentifier NOT NULL,
+[macroUseInEditor] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroUseInEditor] DEFAULT ('0'),
+[macroRefreshRate] INTEGER NOT NULL CONSTRAINT [DF_cmsMacro_macroRefreshRate] DEFAULT ('0'),
+[macroAlias] NVARCHAR(255) NOT NULL,
+[macroName] NVARCHAR(255) NULL,
+[macroScriptType] NVARCHAR(255) NULL,
+[macroScriptAssembly] NVARCHAR(255) NULL,
+[macroXSLT] NVARCHAR(255) NULL,
+[macroCacheByPage] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroCacheByPage] DEFAULT ('1'),
+[macroCachePersonalized] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroCachePersonalized] DEFAULT ('0'),
+[macroDontRender] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroDontRender] DEFAULT ('0'),
+[macroPython] NVARCHAR(255) NULL)
+ 2018-08-31 18:08:59,305 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsMacro] ADD CONSTRAINT [PK_cmsMacro] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,305 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsMacro
+ 2018-08-31 18:08:59,306 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsMacro
+ 2018-08-31 18:08:59,307 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacro_UniqueId] ON [cmsMacro] ([uniqueId])
+ 2018-08-31 18:08:59,308 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroPropertyAlias] ON [cmsMacro] ([macroAlias])
+ 2018-08-31 18:08:59,308 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsMacro' was created
+ 2018-08-31 18:08:59,310 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsMacroProperty] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[uniquePropertyId] UniqueIdentifier NOT NULL,
+[editorAlias] NVARCHAR(255) NOT NULL,
+[macro] INTEGER NOT NULL,
+[macroPropertySortOrder] INTEGER NOT NULL CONSTRAINT [DF_cmsMacroProperty_macroPropertySortOrder] DEFAULT ('0'),
+[macroPropertyAlias] NVARCHAR(50) NOT NULL,
+[macroPropertyName] NVARCHAR(255) NOT NULL)
+ 2018-08-31 18:08:59,312 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsMacroProperty] ADD CONSTRAINT [PK_cmsMacroProperty] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,312 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsMacroProperty
+ 2018-08-31 18:08:59,313 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsMacroProperty
+ 2018-08-31 18:08:59,313 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroProperty_UniquePropertyId] ON [cmsMacroProperty] ([uniquePropertyId])
+ 2018-08-31 18:08:59,314 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroProperty_Alias] ON [cmsMacroProperty] ([macro],[macroPropertyAlias])
+ 2018-08-31 18:08:59,315 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMacroProperty] ADD CONSTRAINT [FK_cmsMacroProperty_cmsMacro_id] FOREIGN KEY ([macro]) REFERENCES [cmsMacro] ([id])
+ 2018-08-31 18:08:59,315 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsMacroProperty' was created
+ 2018-08-31 18:08:59,318 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsMemberType] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[NodeId] INTEGER NOT NULL,
+[propertytypeId] INTEGER NOT NULL,
+[memberCanEdit] BIT NOT NULL CONSTRAINT [DF_cmsMemberType_memberCanEdit] DEFAULT ('0'),
+[viewOnProfile] BIT NOT NULL CONSTRAINT [DF_cmsMemberType_viewOnProfile] DEFAULT ('0'),
+[isSensitive] BIT NOT NULL CONSTRAINT [DF_cmsMemberType_isSensitive] DEFAULT ('0'))
+ 2018-08-31 18:08:59,319 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [PK_cmsMemberType] PRIMARY KEY CLUSTERED ([pk])
+ 2018-08-31 18:08:59,319 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsMemberType
+ 2018-08-31 18:08:59,320 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsMemberType
+ 2018-08-31 18:08:59,321 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [FK_cmsMemberType_umbracoNode_id] FOREIGN KEY ([NodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,322 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [FK_cmsMemberType_cmsContentType_nodeId] FOREIGN KEY ([NodeId]) REFERENCES [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,322 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsMemberType' was created
+ 2018-08-31 18:08:59,325 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsMember] ([nodeId] INTEGER NOT NULL,
+[Email] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_Email] DEFAULT (''''),
+[LoginName] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_LoginName] DEFAULT (''''),
+[Password] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_Password] DEFAULT (''''))
+ 2018-08-31 18:08:59,326 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [PK_cmsMember] PRIMARY KEY CLUSTERED ([nodeId])
+ 2018-08-31 18:08:59,326 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsMember
+ 2018-08-31 18:08:59,326 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsMember
+ 2018-08-31 18:08:59,328 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsMember_LoginName] ON [cmsMember] ([LoginName])
+ 2018-08-31 18:08:59,329 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [FK_cmsMember_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,330 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [FK_cmsMember_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,330 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsMember' was created
+ 2018-08-31 18:08:59,332 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsMember2MemberGroup] ([Member] INTEGER NOT NULL,
+[MemberGroup] INTEGER NOT NULL)
+ 2018-08-31 18:08:59,333 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [PK_cmsMember2MemberGroup] PRIMARY KEY CLUSTERED ([Member], [MemberGroup])
+ 2018-08-31 18:08:59,333 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsMember2MemberGroup
+ 2018-08-31 18:08:59,333 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsMember2MemberGroup
+ 2018-08-31 18:08:59,334 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [FK_cmsMember2MemberGroup_cmsMember_nodeId] FOREIGN KEY ([Member]) REFERENCES [cmsMember] ([nodeId])
+ 2018-08-31 18:08:59,335 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [FK_cmsMember2MemberGroup_umbracoNode_id] FOREIGN KEY ([MemberGroup]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,335 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsMember2MemberGroup' was created
+ 2018-08-31 18:08:59,337 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsContentXml] ([nodeId] INTEGER NOT NULL,
+[xml] NTEXT NOT NULL)
+ 2018-08-31 18:08:59,338 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsContentXml] ADD CONSTRAINT [PK_cmsContentXml] PRIMARY KEY CLUSTERED ([nodeId])
+ 2018-08-31 18:08:59,338 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsContentXml
+ 2018-08-31 18:08:59,339 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsContentXml
+ 2018-08-31 18:08:59,340 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentXml] ADD CONSTRAINT [FK_cmsContentXml_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,340 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsContentXml' was created
+ 2018-08-31 18:08:59,342 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsPreviewXml] ([nodeId] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NOT NULL,
+[timestamp] DATETIME NOT NULL,
+[xml] NTEXT NOT NULL)
+ 2018-08-31 18:08:59,344 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [PK_cmsContentPreviewXml] PRIMARY KEY CLUSTERED ([nodeId], [versionId])
+ 2018-08-31 18:08:59,344 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsPreviewXml
+ 2018-08-31 18:08:59,344 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsPreviewXml
+ 2018-08-31 18:08:59,345 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [FK_cmsPreviewXml_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,346 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [FK_cmsPreviewXml_cmsContentVersion_VersionId] FOREIGN KEY ([versionId]) REFERENCES [cmsContentVersion] ([VersionId])
+ 2018-08-31 18:08:59,346 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsPreviewXml' was created
+ 2018-08-31 18:08:59,348 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsPropertyTypeGroup] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[contenttypeNodeId] INTEGER NOT NULL,
+[text] NVARCHAR(255) NOT NULL,
+[sortorder] INTEGER NOT NULL,
+[uniqueID] UniqueIdentifier NOT NULL CONSTRAINT [DF_cmsPropertyTypeGroup_uniqueID] DEFAULT (NEWID()))
+ 2018-08-31 18:08:59,349 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [PK_cmsPropertyTypeGroup] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,350 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsPropertyTypeGroup
+ 2018-08-31 18:08:59,353 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsPropertyTypeGroup
+ 2018-08-31 18:08:59,355 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsPropertyTypeGroupUniqueID] ON [cmsPropertyTypeGroup] ([uniqueID])
+ 2018-08-31 18:08:59,357 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [FK_cmsPropertyTypeGroup_cmsContentType_nodeId] FOREIGN KEY ([contenttypeNodeId]) REFERENCES [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,358 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsPropertyTypeGroup' was created
+ 2018-08-31 18:08:59,361 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsPropertyType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[dataTypeId] INTEGER NOT NULL,
+[contentTypeId] INTEGER NOT NULL,
+[propertyTypeGroupId] INTEGER NULL,
+[Alias] NVARCHAR(255) NOT NULL,
+[Name] NVARCHAR(255) NULL,
+[sortOrder] INTEGER NOT NULL CONSTRAINT [DF_cmsPropertyType_sortOrder] DEFAULT ('0'),
+[mandatory] BIT NOT NULL CONSTRAINT [DF_cmsPropertyType_mandatory] DEFAULT ('0'),
+[validationRegExp] NVARCHAR(255) NULL,
+[Description] NVARCHAR(2000) NULL,
+[UniqueID] UniqueIdentifier NOT NULL CONSTRAINT [DF_cmsPropertyType_UniqueID] DEFAULT (NEWID()))
+ 2018-08-31 18:08:59,362 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [PK_cmsPropertyType] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,362 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsPropertyType
+ 2018-08-31 18:08:59,371 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsPropertyType
+ 2018-08-31 18:08:59,373 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyTypeAlias] ON [cmsPropertyType] ([Alias])
+ 2018-08-31 18:08:59,375 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsPropertyTypeUniqueID] ON [cmsPropertyType] ([UniqueID])
+ 2018-08-31 18:08:59,378 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsDataType_nodeId] FOREIGN KEY ([dataTypeId]) REFERENCES [cmsDataType] ([nodeId])
+ 2018-08-31 18:08:59,380 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsContentType_nodeId] FOREIGN KEY ([contentTypeId]) REFERENCES [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,384 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsPropertyTypeGroup_id] FOREIGN KEY ([propertyTypeGroupId]) REFERENCES [cmsPropertyTypeGroup] ([id])
+ 2018-08-31 18:08:59,384 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsPropertyType' was created
+ 2018-08-31 18:08:59,386 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsPropertyData] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[contentNodeId] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NULL,
+[propertytypeid] INTEGER NOT NULL,
+[dataInt] INTEGER NULL,
+[dataDecimal] DECIMAL(38,6) NULL,
+[dataDate] DATETIME NULL,
+[dataNvarchar] NVARCHAR(500) NULL,
+[dataNtext] NTEXT NULL)
+ 2018-08-31 18:08:59,388 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [PK_cmsPropertyData] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,388 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsPropertyData
+ 2018-08-31 18:08:59,388 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsPropertyData
+ 2018-08-31 18:08:59,390 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsPropertyData_1] ON [cmsPropertyData] ([contentNodeId],[versionId],[propertytypeid])
+ 2018-08-31 18:08:59,391 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_2] ON [cmsPropertyData] ([versionId])
+ 2018-08-31 18:08:59,392 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_3] ON [cmsPropertyData] ([propertytypeid])
+ 2018-08-31 18:08:59,393 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [FK_cmsPropertyData_umbracoNode_id] FOREIGN KEY ([contentNodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,394 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [FK_cmsPropertyData_cmsPropertyType_id] FOREIGN KEY ([propertytypeid]) REFERENCES [cmsPropertyType] ([id])
+ 2018-08-31 18:08:59,394 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsPropertyData' was created
+ 2018-08-31 18:08:59,396 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoRelationType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[typeUniqueId] UniqueIdentifier NOT NULL,
+[dual] BIT NOT NULL,
+[parentObjectType] UniqueIdentifier NOT NULL,
+[childObjectType] UniqueIdentifier NOT NULL,
+[name] NVARCHAR(255) NOT NULL,
+[alias] NVARCHAR(100) NULL)
+ 2018-08-31 18:08:59,398 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoRelationType] ADD CONSTRAINT [PK_umbracoRelationType] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,398 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoRelationType
+ 2018-08-31 18:08:59,402 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoRelationType
+ 2018-08-31 18:08:59,404 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoRelationType_UniqueId] ON [umbracoRelationType] ([typeUniqueId])
+ 2018-08-31 18:08:59,405 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoRelationType_name] ON [umbracoRelationType] ([name])
+ 2018-08-31 18:08:59,407 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoRelationType_alias] ON [umbracoRelationType] ([alias])
+ 2018-08-31 18:08:59,408 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoRelationType' was created
+ 2018-08-31 18:08:59,410 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoRelation] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[parentId] INTEGER NOT NULL,
+[childId] INTEGER NOT NULL,
+[relType] INTEGER NOT NULL,
+[datetime] DATETIME NOT NULL CONSTRAINT [DF_umbracoRelation_datetime] DEFAULT (GETDATE()),
+[comment] NVARCHAR(1000) NOT NULL)
+ 2018-08-31 18:08:59,412 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [PK_umbracoRelation] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,412 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoRelation
+ 2018-08-31 18:08:59,412 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoRelation
+ 2018-08-31 18:08:59,413 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoRelation_parentChildType] ON [umbracoRelation] ([parentId],[childId],[relType])
+ 2018-08-31 18:08:59,414 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoNode] FOREIGN KEY ([parentId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,415 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoNode1] FOREIGN KEY ([childId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,416 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoRelationType_id] FOREIGN KEY ([relType]) REFERENCES [umbracoRelationType] ([id])
+ 2018-08-31 18:08:59,416 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoRelation' was created
+ 2018-08-31 18:08:59,418 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsTags] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[tag] NVARCHAR(200) NULL,
+[ParentId] INTEGER NULL,
+[group] NVARCHAR(100) NULL)
+ 2018-08-31 18:08:59,420 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsTags] ADD CONSTRAINT [PK_cmsTags] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,420 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsTags
+ 2018-08-31 18:08:59,420 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsTags
+ 2018-08-31 18:08:59,422 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsTags] ON [cmsTags] ([tag],[group])
+ 2018-08-31 18:08:59,423 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTags] ADD CONSTRAINT [FK_cmsTags_cmsTags] FOREIGN KEY ([ParentId]) REFERENCES [cmsTags] ([id])
+ 2018-08-31 18:08:59,423 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsTags' was created
+ 2018-08-31 18:08:59,426 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsTagRelationship] ([nodeId] INTEGER NOT NULL,
+[tagId] INTEGER NOT NULL,
+[propertyTypeId] INTEGER NOT NULL)
+ 2018-08-31 18:08:59,427 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [PK_cmsTagRelationship] PRIMARY KEY CLUSTERED ([nodeId], [propertyTypeId], [tagId])
+ 2018-08-31 18:08:59,427 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsTagRelationship
+ 2018-08-31 18:08:59,427 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsTagRelationship
+ 2018-08-31 18:08:59,428 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsContent] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+ 2018-08-31 18:08:59,429 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsTags_id] FOREIGN KEY ([tagId]) REFERENCES [cmsTags] ([id])
+ 2018-08-31 18:08:59,430 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsPropertyType] FOREIGN KEY ([propertyTypeId]) REFERENCES [cmsPropertyType] ([id])
+ 2018-08-31 18:08:59,430 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsTagRelationship' was created
+ 2018-08-31 18:08:59,433 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUser] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userDisabled] BIT NOT NULL CONSTRAINT [DF_umbracoUser_userDisabled] DEFAULT ('0'),
+[userNoConsole] BIT NOT NULL CONSTRAINT [DF_umbracoUser_userNoConsole] DEFAULT ('0'),
+[userName] NVARCHAR(255) NOT NULL,
+[userLogin] NVARCHAR(125) NOT NULL,
+[userPassword] NVARCHAR(500) NOT NULL,
+[passwordConfig] NVARCHAR(500) NULL,
+[userEmail] NVARCHAR(255) NOT NULL,
+[userLanguage] NVARCHAR(10) NULL,
+[securityStampToken] NVARCHAR(255) NULL,
+[failedLoginAttempts] INTEGER NULL,
+[lastLockoutDate] DATETIME NULL,
+[lastPasswordChangeDate] DATETIME NULL,
+[lastLoginDate] DATETIME NULL,
+[emailConfirmedDate] DATETIME NULL,
+[invitedDate] DATETIME NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUser_createDate] DEFAULT (GETDATE()),
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUser_updateDate] DEFAULT (GETDATE()),
+[avatar] NVARCHAR(500) NULL,
+[tourData] NTEXT NULL)
+ 2018-08-31 18:08:59,435 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUser] ADD CONSTRAINT [PK_user] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,436 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUser
+ 2018-08-31 18:08:59,439 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUser
+ 2018-08-31 18:08:59,441 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoUser_userLogin] ON [umbracoUser] ([userLogin])
+ 2018-08-31 18:08:59,442 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUser' was created
+ 2018-08-31 18:08:59,444 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsTaskType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[alias] NVARCHAR(255) NOT NULL)
+ 2018-08-31 18:08:59,445 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsTaskType] ADD CONSTRAINT [PK_cmsTaskType] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,445 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsTaskType
+ 2018-08-31 18:08:59,447 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsTaskType
+ 2018-08-31 18:08:59,449 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsTaskType_alias] ON [cmsTaskType] ([alias])
+ 2018-08-31 18:08:59,449 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsTaskType' was created
+ 2018-08-31 18:08:59,452 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsTask] ([closed] BIT NOT NULL CONSTRAINT [DF_cmsTask_closed] DEFAULT ('0'),
+[id] INTEGER NOT NULL IDENTITY(1,1),
+[taskTypeId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[parentUserId] INTEGER NOT NULL,
+[userId] INTEGER NOT NULL,
+[DateTime] DATETIME NOT NULL CONSTRAINT [DF_cmsTask_DateTime] DEFAULT (GETDATE()),
+[Comment] NVARCHAR(500) NULL)
+ 2018-08-31 18:08:59,453 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [PK_cmsTask] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,454 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsTask
+ 2018-08-31 18:08:59,454 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsTask
+ 2018-08-31 18:08:59,455 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_cmsTaskType_id] FOREIGN KEY ([taskTypeId]) REFERENCES [cmsTaskType] ([id])
+ 2018-08-31 18:08:59,456 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,457 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoUser] FOREIGN KEY ([parentUserId]) REFERENCES [umbracoUser] ([id])
+ 2018-08-31 18:08:59,459 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoUser1] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+ 2018-08-31 18:08:59,459 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsTask' was created
+ 2018-08-31 18:08:59,461 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsContentType2ContentType] ([parentContentTypeId] INTEGER NOT NULL,
+[childContentTypeId] INTEGER NOT NULL)
+ 2018-08-31 18:08:59,463 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [PK_cmsContentType2ContentType] PRIMARY KEY CLUSTERED ([parentContentTypeId], [childContentTypeId])
+ 2018-08-31 18:08:59,463 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsContentType2ContentType
+ 2018-08-31 18:08:59,463 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsContentType2ContentType
+ 2018-08-31 18:08:59,464 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [FK_cmsContentType2ContentType_umbracoNode_parent] FOREIGN KEY ([parentContentTypeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,465 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [FK_cmsContentType2ContentType_umbracoNode_child] FOREIGN KEY ([childContentTypeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,465 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsContentType2ContentType' was created
+ 2018-08-31 18:08:59,467 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [cmsContentTypeAllowedContentType] ([Id] INTEGER NOT NULL,
+[AllowedId] INTEGER NOT NULL,
+[SortOrder] INTEGER NOT NULL CONSTRAINT df_cmsContentTypeAllowedContentType_sortOrder DEFAULT ('0'))
+ 2018-08-31 18:08:59,468 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [PK_cmsContentTypeAllowedContentType] PRIMARY KEY CLUSTERED ([Id], [AllowedId])
+ 2018-08-31 18:08:59,469 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table cmsContentTypeAllowedContentType
+ 2018-08-31 18:08:59,471 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table cmsContentTypeAllowedContentType
+ 2018-08-31 18:08:59,473 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [FK_cmsContentTypeAllowedContentType_cmsContentType] FOREIGN KEY ([Id]) REFERENCES [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,475 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [FK_cmsContentTypeAllowedContentType_cmsContentType1] FOREIGN KEY ([AllowedId]) REFERENCES [cmsContentType] ([nodeId])
+ 2018-08-31 18:08:59,476 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'cmsContentTypeAllowedContentType' was created
+ 2018-08-31 18:08:59,478 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUser2NodeNotify] ([userId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[action] NCHAR(1) NOT NULL)
+ 2018-08-31 18:08:59,480 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [PK_umbracoUser2NodeNotify] PRIMARY KEY CLUSTERED ([userId], [nodeId], [action])
+ 2018-08-31 18:08:59,480 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUser2NodeNotify
+ 2018-08-31 18:08:59,480 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUser2NodeNotify
+ 2018-08-31 18:08:59,481 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [FK_umbracoUser2NodeNotify_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+ 2018-08-31 18:08:59,482 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [FK_umbracoUser2NodeNotify_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,482 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUser2NodeNotify' was created
+ 2018-08-31 18:08:59,485 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoServer] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[address] NVARCHAR(500) NOT NULL,
+[computerName] NVARCHAR(255) NOT NULL,
+[registeredDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoServer_registeredDate] DEFAULT (GETDATE()),
+[lastNotifiedDate] DATETIME NOT NULL,
+[isActive] BIT NOT NULL,
+[isMaster] BIT NOT NULL)
+ 2018-08-31 18:08:59,486 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoServer] ADD CONSTRAINT [PK_umbracoServer] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,486 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoServer
+ 2018-08-31 18:08:59,487 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoServer
+ 2018-08-31 18:08:59,488 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_computerName] ON [umbracoServer] ([computerName])
+ 2018-08-31 18:08:59,488 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoServer_isActive] ON [umbracoServer] ([isActive])
+ 2018-08-31 18:08:59,489 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoServer' was created
+ 2018-08-31 18:08:59,492 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoAccess] ([id] UniqueIdentifier NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[loginNodeId] INTEGER NOT NULL,
+[noAccessNodeId] INTEGER NOT NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoAccess_createDate] DEFAULT (GETDATE()),
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoAccess_updateDate] DEFAULT (GETDATE()))
+ 2018-08-31 18:08:59,493 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoAccess] ADD CONSTRAINT [PK_umbracoAccess] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,493 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoAccess
+ 2018-08-31 18:08:59,494 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoAccess
+ 2018-08-31 18:08:59,494 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoAccess_nodeId] ON [umbracoAccess] ([nodeId])
+ 2018-08-31 18:08:59,495 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoAccess] ADD CONSTRAINT [FK_umbracoAccess_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,496 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoAccess] ADD CONSTRAINT [FK_umbracoAccess_umbracoNode_id1] FOREIGN KEY ([loginNodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,497 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoAccess] ADD CONSTRAINT [FK_umbracoAccess_umbracoNode_id2] FOREIGN KEY ([noAccessNodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,497 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoAccess' was created
+ 2018-08-31 18:08:59,500 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoAccessRule] ([id] UniqueIdentifier NOT NULL,
+[accessId] UniqueIdentifier NOT NULL,
+[ruleValue] NVARCHAR(255) NOT NULL,
+[ruleType] NVARCHAR(255) NOT NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoAccessRule_createDate] DEFAULT (GETDATE()),
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoAccessRule_updateDate] DEFAULT (GETDATE()))
+ 2018-08-31 18:08:59,501 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoAccessRule] ADD CONSTRAINT [PK_umbracoAccessRule] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,501 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoAccessRule
+ 2018-08-31 18:08:59,501 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoAccessRule
+ 2018-08-31 18:08:59,502 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoAccessRule] ON [umbracoAccessRule] ([ruleValue],[ruleType],[accessId])
+ 2018-08-31 18:08:59,503 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoAccessRule] ADD CONSTRAINT [FK_umbracoAccessRule_umbracoAccess_id] FOREIGN KEY ([accessId]) REFERENCES [umbracoAccess] ([id])
+ 2018-08-31 18:08:59,503 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoAccessRule' was created
+ 2018-08-31 18:08:59,506 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoCacheInstruction] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[utcStamp] DATETIME NOT NULL,
+[jsonInstruction] NTEXT NOT NULL,
+[originated] NVARCHAR(500) NOT NULL,
+[instructionCount] INTEGER NOT NULL CONSTRAINT [DF_umbracoCacheInstruction_instructionCount] DEFAULT ('1'))
+ 2018-08-31 18:08:59,507 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoCacheInstruction] ADD CONSTRAINT [PK_umbracoCacheInstruction] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,508 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoCacheInstruction
+ 2018-08-31 18:08:59,508 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoCacheInstruction
+ 2018-08-31 18:08:59,509 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoCacheInstruction' was created
+ 2018-08-31 18:08:59,511 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoExternalLogin] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userId] INTEGER NOT NULL,
+[loginProvider] NVARCHAR(4000) NOT NULL,
+[providerKey] NVARCHAR(4000) NOT NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoExternalLogin_createDate] DEFAULT (GETDATE()))
+ 2018-08-31 18:08:59,513 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoExternalLogin] ADD CONSTRAINT [PK_umbracoExternalLogin] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,513 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoExternalLogin
+ 2018-08-31 18:08:59,513 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoExternalLogin
+ 2018-08-31 18:08:59,514 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoExternalLogin' was created
+ 2018-08-31 18:08:59,516 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoMigration] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[name] NVARCHAR(255) NOT NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoMigration_createDate] DEFAULT (GETDATE()),
+[version] NVARCHAR(50) NOT NULL)
+ 2018-08-31 18:08:59,518 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoMigration] ADD CONSTRAINT [PK_umbracoMigration] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,518 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoMigration
+ 2018-08-31 18:08:59,520 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoMigration
+ 2018-08-31 18:08:59,522 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoMigration] ON [umbracoMigration] ([name],[version])
+ 2018-08-31 18:08:59,522 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoMigration' was created
+ 2018-08-31 18:08:59,524 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoRedirectUrl] ([id] UniqueIdentifier NOT NULL,
+[contentKey] UniqueIdentifier NOT NULL,
+[createDateUtc] DATETIME NOT NULL,
+[url] NVARCHAR(255) NOT NULL,
+[urlHash] NVARCHAR(40) NOT NULL)
+ 2018-08-31 18:08:59,526 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoRedirectUrl] ADD CONSTRAINT [PK_umbracoRedirectUrl] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,526 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoRedirectUrl
+ 2018-08-31 18:08:59,526 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoRedirectUrl
+ 2018-08-31 18:08:59,527 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoRedirectUrl] ON [umbracoRedirectUrl] ([urlHash],[contentKey],[createDateUtc])
+ 2018-08-31 18:08:59,528 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRedirectUrl] ADD CONSTRAINT [FK_umbracoRedirectUrl_umbracoNode_uniqueID] FOREIGN KEY ([contentKey]) REFERENCES [umbracoNode] ([uniqueID])
+ 2018-08-31 18:08:59,529 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoRedirectUrl' was created
+ 2018-08-31 18:08:59,531 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoLock] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[value] INTEGER NOT NULL,
+[name] NVARCHAR(64) NOT NULL)
+ 2018-08-31 18:08:59,532 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoLock] ADD CONSTRAINT [PK_umbracoLock] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,533 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoLock
+ 2018-08-31 18:08:59,534 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoLock
+ 2018-08-31 18:08:59,535 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoLock' was created
+ 2018-08-31 18:08:59,537 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUserGroup] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userGroupAlias] NVARCHAR(200) NOT NULL,
+[userGroupName] NVARCHAR(200) NOT NULL,
+[userGroupDefaultPermissions] NVARCHAR(50) NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUserGroup_createDate] DEFAULT (GETDATE()),
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUserGroup_updateDate] DEFAULT (GETDATE()),
+[icon] NVARCHAR(255) NULL,
+[startContentId] INTEGER NULL,
+[startMediaId] INTEGER NULL)
+ 2018-08-31 18:08:59,539 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUserGroup] ADD CONSTRAINT [PK_umbracoUserGroup] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,539 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUserGroup
+ 2018-08-31 18:08:59,544 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUserGroup
+ 2018-08-31 18:08:59,546 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoUserGroup_userGroupAlias] ON [umbracoUserGroup] ([userGroupAlias])
+ 2018-08-31 18:08:59,547 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoUserGroup_userGroupName] ON [umbracoUserGroup] ([userGroupName])
+ 2018-08-31 18:08:59,550 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserGroup] ADD CONSTRAINT [FK_startContentId_umbracoNode_id] FOREIGN KEY ([startContentId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,553 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserGroup] ADD CONSTRAINT [FK_startMediaId_umbracoNode_id] FOREIGN KEY ([startMediaId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,554 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUserGroup' was created
+ 2018-08-31 18:08:59,556 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUser2UserGroup] ([userId] INTEGER NOT NULL,
+[userGroupId] INTEGER NOT NULL)
+ 2018-08-31 18:08:59,558 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUser2UserGroup] ADD CONSTRAINT [PK_user2userGroup] PRIMARY KEY CLUSTERED ([userId], [userGroupId])
+ 2018-08-31 18:08:59,558 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUser2UserGroup
+ 2018-08-31 18:08:59,560 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUser2UserGroup
+ 2018-08-31 18:08:59,563 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2UserGroup] ADD CONSTRAINT [FK_umbracoUser2UserGroup_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+ 2018-08-31 18:08:59,566 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2UserGroup] ADD CONSTRAINT [FK_umbracoUser2UserGroup_umbracoUserGroup_id] FOREIGN KEY ([userGroupId]) REFERENCES [umbracoUserGroup] ([id])
+ 2018-08-31 18:08:59,566 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUser2UserGroup' was created
+ 2018-08-31 18:08:59,568 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUserGroup2NodePermission] ([userGroupId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[permission] NVARCHAR(255) NOT NULL)
+ 2018-08-31 18:08:59,570 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUserGroup2NodePermission] ADD CONSTRAINT [PK_umbracoUserGroup2NodePermission] PRIMARY KEY CLUSTERED ([userGroupId], [nodeId], [permission])
+ 2018-08-31 18:08:59,570 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUserGroup2NodePermission
+ 2018-08-31 18:08:59,570 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUserGroup2NodePermission
+ 2018-08-31 18:08:59,571 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoUser2NodePermission_nodeId] ON [umbracoUserGroup2NodePermission] ([nodeId])
+ 2018-08-31 18:08:59,572 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserGroup2NodePermission] ADD CONSTRAINT [FK_umbracoUserGroup2NodePermission_umbracoUserGroup_id] FOREIGN KEY ([userGroupId]) REFERENCES [umbracoUserGroup] ([id])
+ 2018-08-31 18:08:59,573 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserGroup2NodePermission] ADD CONSTRAINT [FK_umbracoUserGroup2NodePermission_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,573 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUserGroup2NodePermission' was created
+ 2018-08-31 18:08:59,575 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUserGroup2App] ([userGroupId] INTEGER NOT NULL,
+[app] NVARCHAR(50) NOT NULL)
+ 2018-08-31 18:08:59,577 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUserGroup2App] ADD CONSTRAINT [PK_userGroup2App] PRIMARY KEY CLUSTERED ([userGroupId], [app])
+ 2018-08-31 18:08:59,577 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUserGroup2App
+ 2018-08-31 18:08:59,581 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUserGroup2App
+ 2018-08-31 18:08:59,583 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserGroup2App] ADD CONSTRAINT [FK_umbracoUserGroup2App_umbracoUserGroup_id] FOREIGN KEY ([userGroupId]) REFERENCES [umbracoUserGroup] ([id])
+ 2018-08-31 18:08:59,584 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUserGroup2App' was created
+ 2018-08-31 18:08:59,586 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUserStartNode] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userId] INTEGER NOT NULL,
+[startNode] INTEGER NOT NULL,
+[startNodeType] INTEGER NOT NULL)
+ 2018-08-31 18:08:59,588 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUserStartNode] ADD CONSTRAINT [PK_userStartNode] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,588 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUserStartNode
+ 2018-08-31 18:08:59,588 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUserStartNode
+ 2018-08-31 18:08:59,590 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoUserStartNode_startNodeType] ON [umbracoUserStartNode] ([startNodeType],[startNode],[userId])
+ 2018-08-31 18:08:59,591 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserStartNode] ADD CONSTRAINT [FK_umbracoUserStartNode_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+ 2018-08-31 18:08:59,592 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserStartNode] ADD CONSTRAINT [FK_umbracoUserStartNode_umbracoNode_id] FOREIGN KEY ([startNode]) REFERENCES [umbracoNode] ([id])
+ 2018-08-31 18:08:59,592 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUserStartNode' was created
+ 2018-08-31 18:08:59,596 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoUserLogin] ([sessionId] UniqueIdentifier NOT NULL,
+[userId] INTEGER NOT NULL,
+[loggedInUtc] DATETIME NOT NULL,
+[lastValidatedUtc] DATETIME NOT NULL,
+[loggedOutUtc] DATETIME NULL,
+[ipAddress] NVARCHAR(255) NULL)
+ 2018-08-31 18:08:59,598 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoUserLogin] ADD CONSTRAINT [PK_umbracoUserLogin] PRIMARY KEY CLUSTERED ([sessionId])
+ 2018-08-31 18:08:59,598 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoUserLogin
+ 2018-08-31 18:08:59,598 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoUserLogin
+ 2018-08-31 18:08:59,599 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUserLogin] ADD CONSTRAINT [FK_umbracoUserLogin_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+ 2018-08-31 18:08:59,599 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoUserLogin' was created
+ 2018-08-31 18:08:59,602 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoConsent] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[current] BIT NOT NULL,
+[source] NVARCHAR(512) NOT NULL,
+[context] NVARCHAR(128) NOT NULL,
+[action] NVARCHAR(512) NOT NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoConsent_createDate] DEFAULT (GETDATE()),
+[state] INTEGER NOT NULL,
+[comment] NVARCHAR(255) NULL)
+ 2018-08-31 18:08:59,603 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoConsent] ADD CONSTRAINT [PK_umbracoConsent] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,604 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoConsent
+ 2018-08-31 18:08:59,604 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoConsent
+ 2018-08-31 18:08:59,605 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoConsent' was created
+ 2018-08-31 18:08:59,608 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
+ CREATE TABLE [umbracoAudit] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[performingUserId] INTEGER NOT NULL,
+[performingDetails] NVARCHAR(1024) NULL,
+[performingIp] NVARCHAR(64) NULL,
+[eventDateUtc] DATETIME NOT NULL CONSTRAINT [DF_umbracoAudit_eventDateUtc] DEFAULT (GETDATE()),
+[affectedUserId] INTEGER NOT NULL,
+[affectedDetails] NVARCHAR(1024) NULL,
+[eventType] NVARCHAR(256) NOT NULL,
+[eventDetails] NVARCHAR(1024) NULL)
+ 2018-08-31 18:08:59,609 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Primary Key sql -1:
+ ALTER TABLE [umbracoAudit] ADD CONSTRAINT [PK_umbracoAudit] PRIMARY KEY CLUSTERED ([id])
+ 2018-08-31 18:08:59,610 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Creating data in table umbracoAudit
+ 2018-08-31 18:08:59,610 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - Done creating data in table umbracoAudit
+ 2018-08-31 18:08:59,611 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - New table 'umbracoAudit' was created
+ 2018-08-31 18:08:59,611 [P9316/D4/T13] INFO  Umbraco.Core.Persistence.Database - Finalized database schema creation
+ 2018-08-31 18:08:59,611 [P9316/D4/T13] INFO  Umbraco.Core.DatabaseContext - Database configuration status: <p>Installation completed!</p>
+ 2018-08-31 18:08:59,612 [P9316/D4/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 532ms)
+ 2018-08-31 18:08:59,708 [P9316/D4/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: User
+ 2018-08-31 18:08:59,820 [P9316/D4/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 112ms)
+ 2018-08-31 18:08:59,835 [P9316/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:08:59,835 [P9316/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:08:59,835 [P9316/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-08-31 18:08:59,843 [P9316/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 7ms)
+ 2018-08-31 18:08:59,945 [P9316/D4/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: StarterKitDownload
+ 2018-08-31 18:09:07,133 [P9316/D4/T20] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-08-31 18:09:07,134 [P9316/D4/T20] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-08-31 18:09:07,137 [P9316/D4/T20] INFO  Umbraco.Web.ExamineStartup - Complete (took 3ms)
+ 2018-08-31 18:09:07,137 [P9316/D4/T20] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-08-31 18:09:07,239 [P9316/D4/T13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 7294ms)
+ 2018-08-31 18:09:10,018 [P9316/D8/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 18:09:10,031 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 18:09:10,034 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Hash determined (took 3ms)
+ 2018-08-31 18:09:10,072 [P9316/D8/T18] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 18:09:10,073 [P9316/D8/T18] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 18:09:10,074 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:10,269 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 194ms)
+ 2018-08-31 18:09:10,269 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 18:09:10,274 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 4ms)
+ 2018-08-31 18:09:10,284 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:10,285 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:10,285 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 18:09:10,289 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2018-08-31 18:09:10,290 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:10,290 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:10,290 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 18:09:10,294 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 4ms)
+ 2018-08-31 18:09:10,304 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:10,304 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:10,304 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 18:09:10,309 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 4ms)
+ 2018-08-31 18:09:10,309 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:10,309 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:10,309 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 18:09:10,313 [P9316/D8/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 3ms)
+ 2018-08-31 18:09:11,156 [P9316/D8/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1181ms)
+ 2018-08-31 18:09:11,183 [P9316/D8/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:09:11,183 [P9316/D8/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:09:11,184 [P9316/D8/T18] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:09:11,477 [P9316/D8/T24] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 18:09:11,478 [P9316/D8/T24] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 18:09:12,268 [P9316/D8/T24] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: StarterKitInstall
+ 2018-08-31 18:09:12,321 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:12,321 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:12,321 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-08-31 18:09:12,328 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 6ms)
+ 2018-08-31 18:09:13,605 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:13,605 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:13,605 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-08-31 18:09:13,611 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2018-08-31 18:09:13,865 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:13,865 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:13,865 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IPackageAction
+ 2018-08-31 18:09:13,870 [P9316/D8/T24] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IPackageAction (took 4ms)
+ 2018-08-31 18:09:14,776 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1097' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1113' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Products' with Id '1098' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1120' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1116' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'People' with Id '1107' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Another one' with Id '1118' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'This will be great' with Id '1119' has been published.
+ 2018-08-31 18:09:14,777 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My Blog Post' with Id '1117' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Todo list for the Starter Kit' with Id '1115' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About this Starter Kit' with Id '1114' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeroen Breuer' with Id '1112' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeavon Leopold' with Id '1111' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lee Kelleher' with Id '1110' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Matt Brailsford' with Id '1109' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jan Skovgaard' with Id '1108' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Knitted West' with Id '1106' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Banjo' with Id '1105' has been published.
+ 2018-08-31 18:09:14,778 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jumpsuit' with Id '1104' has been published.
+ 2018-08-31 18:09:14,779 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bowling Ball' with Id '1103' has been published.
+ 2018-08-31 18:09:14,779 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ping Pong Ball' with Id '1102' has been published.
+ 2018-08-31 18:09:14,779 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unicorn' with Id '1101' has been published.
+ 2018-08-31 18:09:14,779 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tattoo' with Id '1100' has been published.
+ 2018-08-31 18:09:14,779 [P9316/D8/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Biker Jacket' with Id '1099' has been published.
+ 2018-08-31 18:09:15,286 [P9316/D8/T24] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 3018ms)
+ 2018-08-31 18:09:15,361 [P9316/D8/T24] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-08-31 18:09:15,361 [P9316/D8/T24] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-08-31 18:09:15,363 [P9316/D8/T24] INFO  Umbraco.Web.ExamineStartup - Complete (took 1ms)
+ 2018-08-31 18:09:15,363 [P9316/D8/T24] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-08-31 18:09:16,264 [P9316/D8/T25] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: StarterKitCleanup
+ 2018-08-31 18:09:16,313 [P9316/D8/T25] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:16,313 [P9316/D8/T25] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:16,313 [P9316/D8/T25] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-08-31 18:09:16,318 [P9316/D8/T25] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 4ms)
+ 2018-08-31 18:09:17,297 [P9316/D8/T25] INFO  umbraco.content - Loading content from database...
+ 2018-08-31 18:09:17,326 [P9316/D8/T25] INFO  umbraco.content - Loading content from database...
+ 2018-08-31 18:09:17,338 [P9316/D8/T25] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 1073ms)
+ 2018-08-31 18:09:17,927 [P9316/D11/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 18:09:17,940 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 18:09:17,944 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Hash determined (took 3ms)
+ 2018-08-31 18:09:17,974 [P9316/D11/T27] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 18:09:17,975 [P9316/D11/T27] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 18:09:17,976 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:18,194 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 218ms)
+ 2018-08-31 18:09:18,194 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 18:09:18,195 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2018-08-31 18:09:18,216 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:18,216 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:18,217 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 18:09:18,217 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-08-31 18:09:18,217 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:18,217 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:18,217 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 18:09:18,218 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 0ms)
+ 2018-08-31 18:09:18,228 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:18,228 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:18,228 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 18:09:18,228 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2018-08-31 18:09:18,229 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:18,229 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:18,229 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 18:09:18,230 [P9316/D11/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2018-08-31 18:09:19,257 [P9316/D11/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1387ms)
+ 2018-08-31 18:09:19,310 [P9316/D11/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:09:19,311 [P9316/D11/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:09:19,311 [P9316/D11/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:09:20,094 [P9316/D11/T26] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 18:09:20,095 [P9316/D11/T26] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 18:09:20,562 [P9316/D11/T26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: UmbracoVersion
+ 2018-08-31 18:09:20,750 [P9316/D11/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username vedran.jandrasincec@gmail.com from IP address ::1
+ 2018-08-31 18:09:20,757 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:20,758 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:20,758 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-08-31 18:09:20,758 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 0ms)
+ 2018-08-31 18:09:20,777 [P9316/D11/T26] INFO  umbraco.content - Load Xml from file...
+ 2018-08-31 18:09:20,778 [P9316/D11/T26] WARN  umbraco.content - Failed to load Xml, file does not exist.
+ 2018-08-31 18:09:20,779 [P9316/D11/T26] INFO  umbraco.content - Loading content from database...
+ 2018-08-31 18:09:20,977 [P9316/D11/T26] INFO  umbraco.content - Loading content from database...
+ 2018-08-31 18:09:21,002 [P9316/D11/T29] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-08-31 18:09:21,026 [P9316/D11/T30] INFO  umbraco.content - Save Xml to file...
+ 2018-08-31 18:09:21,038 [P9316/D11/T30] INFO  umbraco.content - Saved Xml to file.
+ 2018-08-31 18:09:21,040 [P9316/D11/T29] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-08-31 18:09:21,041 [P9316/D11/T29] INFO  Umbraco.Web.ExamineStartup - Complete (took 1ms)
+ 2018-08-31 18:09:21,042 [P9316/D11/T29] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-08-31 18:09:21,214 [P9316/D11/T26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 652ms)
+ 2018-08-31 18:09:21,278 [P9316/D11/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-08-31 18:09:21,282 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:21,282 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:21,282 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-08-31 18:09:21,283 [P9316/D11/T26] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2018-08-31 18:09:21,991 [P9316/D12/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 18:09:22,004 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 18:09:22,007 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Hash determined (took 3ms)
+ 2018-08-31 18:09:22,038 [P9316/D12/T27] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 18:09:22,039 [P9316/D12/T27] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 18:09:22,040 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:22,252 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 212ms)
+ 2018-08-31 18:09:22,252 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 18:09:22,253 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2018-08-31 18:09:22,272 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:22,272 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:22,273 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 18:09:22,273 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-08-31 18:09:22,273 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:22,273 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:22,273 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 18:09:22,274 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2018-08-31 18:09:22,283 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:22,284 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:22,284 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 18:09:22,284 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2018-08-31 18:09:22,284 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:22,284 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:22,284 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 18:09:22,285 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2018-08-31 18:09:23,101 [P9316/D2/T26] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+CONFIG change
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-08-31 18:09:23,185 [P9316/D12/T27] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-08-31 18:09:23,360 [P9316/D12/T27] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-08-31 18:09:23,485 [P9316/D12/T27] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-08-31 18:09:23,485 [P9316/D12/T27] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-08-31 18:09:23,495 [P9316/D12/T27] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2018-08-31 18:09:23,524 [P9316/D12/T27] INFO  umbraco.content - Load Xml from file...
+ 2018-08-31 18:09:23,525 [P9316/D12/T27] INFO  umbraco.content - Loaded Xml from file.
+ 2018-08-31 18:09:23,527 [P9316/D12/T27] INFO  umbraco.content - Loading content from database...
+ 2018-08-31 18:09:23,767 [P9316/D12/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1835ms)
+ 2018-08-31 18:09:23,768 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:09:23,815 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - member, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:09:23,926 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - member, took 111ms, Provider=InternalMemberIndexer, NodeId=-1
+ 2018-08-31 18:09:23,927 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:09:23,935 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,061 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:24,061 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:24,061 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-08-31 18:09:24,062 [P9316/D12/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2018-08-31 18:09:24,195 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 259ms, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,196 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,263 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 68ms, Provider=InternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,263 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,271 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,286 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 15ms, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,286 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,291 [P9316/D12/T27] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 4ms, Provider=ExternalIndexer, NodeId=-1
+ 2018-08-31 18:09:24,847 [P9316/D12/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 18:09:24,848 [P9316/D12/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 18:09:26,032 [P9316/D3/T14] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-08-31 18:09:27,765 [P9316/D12/T14] INFO  umbraco.content - Save Xml to file...
+ 2018-08-31 18:09:27,771 [P9316/D12/T14] INFO  umbraco.content - Saved Xml to file.
+ 2018-08-31 18:09:28,253 [P9316/D12/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:28,253 [P9316/D12/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:28,253 [P9316/D12/T26] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-08-31 18:09:28,261 [P9316/D12/T26] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 7ms)
+ 2018-08-31 18:09:28,315 [P9316/D12/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:28,315 [P9316/D12/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:28,315 [P9316/D12/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-08-31 18:09:28,320 [P9316/D12/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 4ms)
+ 2018-08-31 18:09:29,141 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:29,141 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:29,141 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-08-31 18:09:29,146 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 4ms)
+ 2018-08-31 18:09:29,155 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:29,156 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:29,156 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-08-31 18:09:29,156 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-08-31 18:09:29,158 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:29,158 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:29,158 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-08-31 18:09:29,163 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 4ms)
+ 2018-08-31 18:09:29,186 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:29,187 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:29,187 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-08-31 18:09:29,191 [P9316/D12/T12] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 4ms)
+ 2018-08-31 18:09:29,694 [P9316/D12/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 18:09:29,694 [P9316/D12/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 18:09:29,694 [P9316/D12/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-08-31 18:09:29,694 [P9316/D12/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2018-08-31 18:09:37,163 [P9316/D4/T20] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+User code called UnloadAppDomain
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-08-31 18:09:45,453 [P9316/D8/T24] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
+
+_shutDownMessage=User code called UnloadAppDomain
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.UnloadAppDomain()
+   at Umbraco.Web.ApplicationContextExtensions.RestartApplicationPool(ApplicationContext appContext, HttpContextBase http)
+   at Umbraco.Web.Install.InstallSteps.StarterKitInstallStep.Execute(Object model)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Umbraco.Web.Install.Controllers.InstallApiController.ExecuteStep(InstallSetupStep step, JToken instruction)
+   at Umbraco.Web.Install.Controllers.InstallApiController.PostPerformInstall(InstallInstructions installModel)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.InvokeActionAsyncCore(HttpActionContext actionContext, CancellationToken cancellationToken)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.InvokeActionAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Web.Http.Controllers.ActionFilterResult.ExecuteAsync(CancellationToken cancellationToken)
+   at System.Web.Http.Controllers.AuthorizationFilterResult.<>c__DisplayClass4.<ExecuteAsync>b__0()
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.ExecuteAuthorizationFilterAsyncCore(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.System.Web.Http.Filters.IAuthorizationFilter.ExecuteAuthorizationFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation)
+   at System.Web.Http.Controllers.AuthorizationFilterResult.<>c__DisplayClass4.<>c__DisplayClass6.<ExecuteAsync>b__2()
+   at System.Web.Http.Controllers.AuthorizationFilterResult.ExecuteAsync(CancellationToken cancellationToken)
+   at System.Web.Http.ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpRoutingDispatcher.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Web.Http.HttpServer.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.WebHost.HttpControllerHandler.<ProcessRequestAsyncCore>d__0.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Web.Http.WebHost.HttpControllerHandler.ProcessRequestAsyncCore(HttpContextBase contextBase)
+   at System.Web.Http.WebHost.HttpControllerHandler.ProcessRequestAsync(HttpContext context)
+   at System.Web.HttpTaskAsyncHandler.<>c__DisplayClass4_0.<System.Web.IHttpAsyncHandler.BeginProcessRequest>b__0()
+   at System.Web.TaskAsyncHelper.BeginTask(Func`1 taskFunc, AsyncCallback callback, Object state)
+   at System.Web.HttpTaskAsyncHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+ 2018-08-31 18:09:51,123 [P9316/D11/T29] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-08-31 18:10:25,129 [P9316/D12/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-08-30 18:10:25
+ 2018-08-31 20:54:40,003 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-08-31 20:54:40,003 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-08-31 20:54:40,006 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2018-08-31 20:54:40,007 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2018-08-31 20:54:40,007 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-08-31 20:54:40,007 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-08-31 20:54:40,007 [P9316/D12/T232] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-08-31 20:54:40,007 [P9316/D12/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2018-08-31 20:54:40,007 [P9316/D12/T244] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-08-31 20:54:40,007 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-08-31 20:54:40,008 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-08-31 20:54:40,008 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-08-31 20:54:40,008 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-08-31 20:54:40,008 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-08-31 20:54:40,008 [P9316/D12/T234] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-08-31 20:54:40,008 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-08-31 20:54:40,008 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-08-31 20:54:40,009 [P9316/D12/T236] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-08-31 20:54:40,009 [P9316/D12/T230] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-08-31 20:54:40,011 [P9316/D12/T230] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-08-31 20:54:40,014 [P9316/D12/T230] INFO  Umbraco.Web.ExamineStartup - Complete (took 3ms)
+ 2018-08-31 20:54:40,014 [P9316/D12/T230] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-08-31 20:54:40,015 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-08-31 20:54:40,015 [P9316/D12/T230] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-08-31 20:54:40,015 [P9316/D12/T239] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-08-31 20:54:45,267 [P9316/D13/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 20:54:45,284 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 20:54:45,294 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2018-08-31 20:54:45,334 [P9316/D13/T27] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 20:54:45,335 [P9316/D13/T27] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 20:54:45,336 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:45,536 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 200ms)
+ 2018-08-31 20:54:45,537 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 20:54:45,541 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 4ms)
+ 2018-08-31 20:54:45,551 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:45,551 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:45,551 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 20:54:45,555 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 3ms)
+ 2018-08-31 20:54:45,556 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:45,556 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:45,556 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 20:54:45,560 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 4ms)
+ 2018-08-31 20:54:45,569 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:45,570 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:45,570 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 20:54:45,574 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 3ms)
+ 2018-08-31 20:54:45,574 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:45,575 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:45,575 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 20:54:45,579 [P9316/D13/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 3ms)
+ 2018-08-31 20:54:46,377 [P9316/D13/T27] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-08-31 20:54:46,521 [P9316/D13/T27] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-08-31 20:54:46,627 [P9316/D13/T27] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-08-31 20:54:46,627 [P9316/D13/T27] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-08-31 20:54:46,648 [P9316/D13/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1432ms)
+ 2018-08-31 20:54:46,761 [P9316/D13/T239] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 20:54:46,762 [P9316/D13/T239] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 20:54:46,863 [P9316/D13/T239] INFO  umbraco.content - Load Xml from file...
+ 2018-08-31 20:54:46,870 [P9316/D13/T239] INFO  umbraco.content - Loaded Xml from file.
+ 2018-08-31 20:54:47,163 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:47,164 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:47,164 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-08-31 20:54:47,169 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 4ms)
+ 2018-08-31 20:54:50,238 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:50,239 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:50,239 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-08-31 20:54:50,243 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 4ms)
+ 2018-08-31 20:54:52,597 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:52,598 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:52,598 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-08-31 20:54:52,604 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 5ms)
+ 2018-08-31 20:54:52,702 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:52,702 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:52,703 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-08-31 20:54:52,703 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2018-08-31 20:54:52,718 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:54:52,718 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:54:52,718 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2018-08-31 20:54:52,722 [P9316/D13/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 3ms)
+ 2018-08-31 20:55:06,851 [P9316/D13/T249] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:06,851 [P9316/D13/T249] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:06,851 [P9316/D13/T249] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-08-31 20:55:06,856 [P9316/D13/T249] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 4ms)
+ 2018-08-31 20:55:06,912 [P9316/D13/T243] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:06,912 [P9316/D13/T243] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:06,913 [P9316/D13/T243] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-08-31 20:55:06,917 [P9316/D13/T243] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 4ms)
+ 2018-08-31 20:55:10,100 [P9316/D12/T239] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+Change in C:\Users\Veki\AppData\Local\Temp\Temporary ASP.NET Files\vs\bc5bec35\614d8872\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-08-31 20:55:39,412 [P15844/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.1 application starting on VEKI
+ 2018-08-31 20:55:39,458 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-08-31 20:55:39,462 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 4ms)
+ 2018-08-31 20:55:39,507 [P15844/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-08-31 20:55:39,508 [P15844/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-08-31 20:55:39,509 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:39,541 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 32ms)
+ 2018-08-31 20:55:39,541 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-08-31 20:55:39,542 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2018-08-31 20:55:39,565 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:39,565 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:39,565 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-08-31 20:55:39,566 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-08-31 20:55:39,566 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:39,566 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:39,566 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-08-31 20:55:39,568 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2018-08-31 20:55:39,579 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:39,579 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:39,579 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-08-31 20:55:39,579 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2018-08-31 20:55:39,579 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:39,580 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:39,580 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-08-31 20:55:39,580 [P15844/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2018-08-31 20:55:40,581 [P15844/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-08-31 20:55:40,741 [P15844/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-08-31 20:55:40,831 [P15844/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-08-31 20:55:40,832 [P15844/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-08-31 20:55:40,858 [P15844/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1497ms)
+ 2018-08-31 20:55:40,982 [P15844/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:52214/umbraco
+ 2018-08-31 20:55:40,983 [P15844/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:52214/umbraco (UmbracoModule request)
+ 2018-08-31 20:55:41,322 [P15844/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2018-08-31 20:55:41,325 [P15844/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2018-08-31 20:55:41,798 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:41,798 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:41,798 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-08-31 20:55:41,799 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2018-08-31 20:55:44,400 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:44,400 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:44,400 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-08-31 20:55:44,400 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2018-08-31 20:55:46,829 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:46,829 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:46,829 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-08-31 20:55:46,830 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2018-08-31 20:55:46,930 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:46,931 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:46,931 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-08-31 20:55:46,931 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2018-08-31 20:55:46,947 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:55:46,947 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:55:46,948 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2018-08-31 20:55:46,948 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 0ms)
+ 2018-08-31 20:56:12,349 [P15844/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:56:12,349 [P15844/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:56:12,349 [P15844/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-08-31 20:56:12,349 [P15844/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-08-31 20:56:12,419 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:56:12,419 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:56:12,419 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-08-31 20:56:12,420 [P15844/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2018-08-31 20:56:28,721 [P15844/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jandro.applications@gmail.com from IP address ::1
+ 2018-08-31 20:56:30,098 [P15844/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jandro.applications@gmail.com from IP address ::1
+ 2018-08-31 20:56:38,724 [P15844/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username vedran.jandrasincec@gmail.com from IP address ::1
+ 2018-08-31 20:56:41,365 [P15844/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-08-30 20:56:41
+ 2018-08-31 20:56:56,708 [P15844/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username vedran.jandrasincec@gmail.com from IP address ::1
+ 2018-08-31 20:56:56,708 [P15844/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: vedran.jandrasincec@gmail.com logged in from IP address ::1
+ 2018-08-31 20:56:57,524 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:56:57,524 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:56:57,524 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-08-31 20:56:57,532 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 8ms)
+ 2018-08-31 20:56:57,548 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:56:57,548 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:56:57,549 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-08-31 20:56:57,550 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-08-31 20:56:57,554 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:56:57,554 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:56:57,554 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-08-31 20:56:57,561 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 7ms)
+ 2018-08-31 20:56:57,575 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:56:57,575 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:56:57,575 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-08-31 20:56:57,579 [P15844/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 4ms)
+ 2018-08-31 20:59:30,601 [P15844/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-08-31 20:59:30,601 [P15844/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-08-31 20:59:30,601 [P15844/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-08-31 20:59:30,606 [P15844/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 5ms)
+ 2018-08-31 21:08:41,576 [P15844/D2/T16] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\Projects\UmbracoAmkBilogora\UmbracoAmkBilogora\Views\Partials\Navigation\TopNavigation.cshtml(28): error CS4033: The 'await' operator can only be used within an async method. Consider marking this method with the 'async' modifier and changing its return type to 'Task'.
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in d:\Projects\UmbracoAmkBilogora\UmbracoAmkBilogora\Views\Master.cshtml:line 36
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-08-31 21:19:38,222 [P15844/D2/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-08-31 21:19:41,319 [P15844/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-08-31 21:19:41,321 [P15844/D2/T93] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-08-31 21:19:42,029 [P15844/D2/T95] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-08-31 21:19:42,031 [P15844/D2/T26] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2018-08-31 21:26:36,227 [P15844/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My Blog Post' with Id '1117' has been unpublished.
+ 2018-08-31 21:26:36,356 [P15844/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Another one' with Id '1118' has been unpublished.
+ 2018-08-31 21:26:36,386 [P15844/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'This will be great' with Id '1119' has been unpublished.
+ 2018-08-31 21:26:40,402 [P15844/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2018-08-31 21:26:40,410 [P15844/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2018-08-31 21:26:44,234 [P15844/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Matt Brailsford' with Id '1109' has been unpublished.
+ 2018-08-31 21:26:44,280 [P15844/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lee Kelleher' with Id '1110' has been unpublished.
+ 2018-08-31 21:26:44,312 [P15844/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeavon Leopold' with Id '1111' has been unpublished.
+ 2018-08-31 21:26:44,351 [P15844/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeroen Breuer' with Id '1112' has been unpublished.
+ 2018-08-31 21:26:48,382 [P15844/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2018-08-31 21:26:48,388 [P15844/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2018-08-31 21:27:04,495 [P15844/D2/T60] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-08-31 21:27:04,498 [P15844/D2/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
